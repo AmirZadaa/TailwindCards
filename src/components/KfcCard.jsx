@@ -11,8 +11,10 @@ export default function KfcCard() {
         <span className="  w-6 h-8 bg-red-600"> </span>
         <span className="  w-6 h-8 bg-red-600"> </span>
       </div>
-      <span className="absolute right-2 top-2"><i className="fa-regular fa-heart text-red-600 text-3xl"></i></span>
-      <img src={combo} alt="hello" height={200} width="auto" className="hover:scale-110 duration-75" />
+      <span className="absolute right-2 top-2"><i className="fa-regular fa-heart text-red-600 text-3xl hover:text-white"></i></span>
+      <div  className="  overflow-hidden ">
+         <img src={combo} alt="hello" height={220} width="auto" className="hover:scale-110 duration-75" />
+      </div>
       <div className="flex flex-col gap-2 text-white">
         <h1 className="font-bold text-2xl mt-5">Zinger Stacker Combo</h1>
         <p className="text-md text-slate-50">1 Zinger Stacker + 1 Regular fries + 1 Regular drink</p>
